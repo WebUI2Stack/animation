@@ -1,0 +1,229 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.background{
+    
+    
+        height: 600px;
+        background-color: none;
+        width: 60%;
+        margin: 0 auto;
+        overflow: hidden;
+    animation-name: flag;
+    animation-duration: 5s;
+/*    animation-iteration-count: 2;*/
+}
+.box{
+   
+    min-height: 300px;
+    width: 300px;
+    background-color: none;
+    border: none;
+    animation-name: test;
+    animation-duration: 5s;
+/*    animation-iteration-count: 2;*/
+    margin-left: 0px;
+    margin-top: 0px;
+    border-radius: 0px;
+    
+    
+}
+
+
+@keyframes flag{
+    from{background-color: none;}
+    to{background-color: green;}
+}
+
+@keyframes test{
+    
+    from{background-color: black;}
+    to{background-color: red;}
+    from{margin-left: 0px;}
+    to{margin-left: 400px;}
+    from{margin-top: 0px}
+    to{margin-top: 125px}
+    from{border-radius: 0px;}
+    to{border-radius: 180px;}
+    
+    
+}
+
+.jumping_box{
+    
+    min-height: 1000px;
+    width: 1000px;
+    margin: 30px auto;
+/*    background-color: aqua;*/
+    position: relative;
+ 
+}
+.jumping_box_1{
+    
+    min-height: 150px;
+    width: 150px;
+    background-color: black;
+    position: absolute;
+    border-radius: 180px;
+    left:420px;
+    top: 20px;
+    animation-name: jump1;
+    animation-duration: .5s;
+   
+}
+
+.jumping_box_2{
+    min-height: 150px;
+    width: 150px;
+    background-color: black;
+    position: absolute;
+    border-radius: 180px;
+    right: 150px;
+    top: 100px;
+     animation-name: jump2;
+    animation-duration: .5s;
+    animation-delay: .5s;
+  
+/*    2*/
+}
+
+.jumping_box_3{
+      min-height: 150px;
+    width: 150px;
+    background-color: black;
+    position: absolute;
+    border-radius: 180px;
+    right: 70px;
+    top: 350px;
+    animation-name: jump3;
+    animation-duration: .5s;
+    animation-delay: 1s;
+
+    
+    
+/*    3*/
+}
+.jumping_box_4{
+       min-height: 150px;
+    width: 150px;
+    background-color: black;
+    position: absolute;
+    border-radius: 180px;
+    right: 150px;
+    bottom: 250px;
+     animation-name: jump4;
+    animation-duration: .5s;
+    animation-delay: 1.5s;
+  ;
+    
+/*    4*/
+}
+.jumping_box_5{
+    
+     min-height: 150px;
+    width: 150px;
+    background-color: black;
+    position: absolute;
+    border-radius: 180px;
+    left:420px;
+    bottom: 150px;
+    animation-name: jump5;
+    animation-duration: .5s;
+    animation-delay: 2s;
+   
+/*    5*/
+}
+.jumping_box_6{
+    min-height: 150px;
+    width: 150px;
+    background-color: black;
+    position: absolute;
+    border-radius: 180px;
+    left: 150px;
+    bottom: 250px;
+    animation-name: jump6;
+    animation-duration: .5s;
+    animation-delay: 2.5s;
+ 
+/*    6*/
+}
+.jumping_box_7{
+    min-height: 150px;
+    width: 150px;
+    background-color: black;
+    position: absolute;
+    border-radius: 180px;
+    left: 70px;
+    top: 350px;
+    animation-name: jump7;
+    animation-duration: .5s;
+    animation-delay: 3s;
+   
+/*    7*/
+}
+.jumping_box_8{
+    min-height: 150px;
+    width: 150px;
+    background-color: black;
+    position: absolute;
+    border-radius: 180px;
+    left: 150px;
+    top: 100px;
+    
+    animation-name: jump8;
+    animation-duration: .5s;
+    animation-delay: 3.5s;
+ }
+
+
+
+@keyframes jump1{
+    
+    from{background-color: black;}
+    to{background-color: greenyellow;}
+}
+@keyframes jump2{
+    
+     from{background-color: black;}
+    to{background-color: greenyellow;}
+}
+@keyframes jump3{
+    
+     from{background-color: black;}
+    to{background-color: greenyellow;}
+}
+@keyframes jump4{
+    from{background-color: black;}
+    to{background-color: greenyellow;}
+}
+@keyframes jump5{
+    from{background-color: black;}
+    to{background-color: greenyellow;}
+}
+@keyframes jump6{
+    from{background-color: black;}
+    to{background-color: greenyellow;}
+}
+@keyframes jump7{
+    from{background-color: black;}
+    to{background-color: greenyellow;}
+}
+@keyframes jump8{
+    from{background-color: black;}
+    to{background-color: greenyellow;}
+}
+/*
+@keyframes jump{
+    
+    0%{ margin: 300px auto;}
+    20%{ margin: 250px auto;background-color: green;}
+    40%{ margin: 200px auto;background-color: yellow;}
+    60%{ margin: 150px auto;background-color: yellowgreen;}
+    
+    80%{ margin: 100px auto;background-color: blue;}
+    100%{ margin: 50px auto;background-color: red;}
+}
+
+*/
